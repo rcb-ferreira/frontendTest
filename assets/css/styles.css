@@ -24,6 +24,11 @@ h1 {
   background-color: #141414;
 }
 
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
 .link img {
   max-width: 100%;
   -moz-transition: all 0.3s;
@@ -61,8 +66,6 @@ h1 {
 .step {
   display: inline-flex;
   padding: 17px 0;
-  text-decoration: none;
-  color: #FFF;
 }
 .step img {
   padding-right: 17px;
@@ -71,10 +74,3 @@ h1 {
   background:url('../images/stepbg.png') no-repeat left center;
 }
 /*End Steps section*/
-
-/*Info section*/
-.info-link {
-  text-decoration: none;
-  cursor: pointer;
-}
-/*End Info section*/
