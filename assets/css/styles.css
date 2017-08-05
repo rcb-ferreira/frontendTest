@@ -1,8 +1,58 @@
 body {
-  margin: 0;
-  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  line-height:1.5em;
+  margin:0;
+  padding:0;
+  color: #FFF;
+  background: #000;
 }
 
 .container {
   margin: auto;
 }
+
+h1 {
+  text-transform: uppercase;
+}
+
+/*Global styles*/
+.secondary-text {
+  color: #D6BA29;
+}
+
+.bg-gray {
+  background-color: #141414;
+}
+/*Global styles*/
+
+/*Slider section*/
+.slider {
+  background-color: #000;
+  height: 372px;
+}
+
+.slideOne {
+  background:url('../images/layer_1.png') no-repeat center center;
+}
+
+.slideTwo {
+  background:url('../images/layer_2.png') no-repeat center center;
+}
+
+.slideThree {
+  background:url('../images/layer_3.png') no-repeat center center;
+}
+/*End Slider section*/
+
+/*Steps section*/
+.step {
+  display: inline-flex;
+  padding: 17px 0;
+}
+.step img {
+  padding-right: 17px;
+}
+.step-bg-img {
+  background:url('../images/stepbg.png') no-repeat left center;
+}
+/*End Steps section*/
