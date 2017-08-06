@@ -7,12 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="HandheldFriendly" content="true" />
 
+     <!-- FLexbox grid Core CSS -->
     <link rel="stylesheet" href="./assets/css/flexboxgrid.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
 
+    <!-- Custom Fonts / CSS / JS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script type="text/javascript" src="./assets/js/general.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body class="primary-text bg-primary">
+  <body class="primary-text bg-primary" onload="initLoad()">
 
     <!-- LOGO -->
     <section class="main-header">
@@ -26,7 +36,7 @@
     </section>
 
     <!-- SLIDER -->
-    <section class="slider slideOne">
+    <section id="showcase" class="slider slide_1">
       <div class="container inherit-height">
         <div class="row start-sm start-md start-lg inherit-height">
           <div class="col-xs-12 col-sm-5 col-md-4 center-xs center-sm center-md center-lg slide-content">
@@ -46,21 +56,21 @@
           <div class="col-xs-12 col-sm-4 step-content">
             <div class="step-pointer-img hide">&nbsp;</div>
             <a href="#" class="link step-link">
-              <img src="./assets/images/step1.png" class="step-img">
+              <div class="sprites step1 step-img img">&nbsp;</div>
               <p>Book your flights</p>
             </a>
           </div>
           <div class="col-xs-12 col-sm-4 step-content">
             <div class="step-pointer-img">&nbsp;</div>
             <a href="#" class="link step-link step-bg-img">
-              <img src="./assets/images/step2.png" class="step-img">
+              <div class="sprites step2 step-img img">&nbsp;</div>
               <p>Book your destination</p>
             </a>
           </div>
           <div class="col-xs-12 col-sm-4 step-content">
             <div class="step-pointer-img">&nbsp;</div>
             <a href="#" class="link step-link">
-              <img src="./assets/images/step3.png" class="step-img">
+              <div class="sprites step3 step-img img">&nbsp;</div>
               <p>Book car hire</p>
             </a>
           </div>
@@ -75,25 +85,29 @@
           <div class="col-xs-12 col-sm-6 col-md-3 info-content">
             <a href="#" class="link info-link">
               <h4 class="secondary-text">Cheapest Flights</h4>
-              <img src="./assets/images/Airtravelicon.png">
+              <div class="sprites line">&nbsp;</div>
+              <div class="sprites Airtravelicon img">&nbsp;</div>
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 info-content">
             <a href="#" class="link info-link">
               <h4 class="secondary-text">Great prices</h4>
-              <img src="./assets/images/DollarSign.png">
+              <div class="sprites line">&nbsp;</div>
+              <div class="sprites DollarSign img">&nbsp;</div>
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 info-content">
             <a href="#" class="link info-link">
               <h4 class="secondary-text">Amazing accommodation</h4>
-              <img src="./assets/images/bed.png">
+              <div class="sprites line">&nbsp;</div>
+              <div class="sprites bed img">&nbsp;</div>
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 info-content">
             <a href="#" class="link info-link">
               <h4 class="secondary-text">Car hire at a great price</h4>
-              <img src="./assets/images/car.png">
+              <div class="sprites line">&nbsp;</div>
+              <div class="sprites car img">&nbsp;</div>
             </a>
           </div>
         </div>

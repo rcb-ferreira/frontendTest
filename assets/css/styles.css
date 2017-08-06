@@ -47,18 +47,20 @@ a {
   text-decoration: none;
 }
 
-.link img {
+.link .img {
   max-width: 100%;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-.link:hover img {
+.link:hover .img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+.sprites { background: url(../images/sprites.png) no-repeat; }
 
 .inherit-height {
   height: 100%
@@ -147,7 +149,8 @@ a {
 }
 .btn-secondary:hover {
   color: #fff;
-  background:url('../images/ctaplayen.png') no-repeat center center;
+  background: url(../images/sprites.png) no-repeat;
+  background-position: -185px -147px;
   border-color: #6cff00;
 }
 .btn-secondary:active {
@@ -190,15 +193,15 @@ a {
   margin-right: 15px;
 }
 
-.slideOne {
+.slide_0 {
   background:url('../images/layer_1.png') no-repeat center center;
 }
 
-.slideTwo {
+.slide_1 {
   background:url('../images/layer_2.png') no-repeat center center;
 }
 
-.slideThree {
+.slide_2 {
   background:url('../images/layer_3.png') no-repeat center center;
 }
 
@@ -222,7 +225,6 @@ a {
 }
 
 .step-content {
-  margin: -1px 0px;
   position: relative;
 }
 
@@ -232,7 +234,8 @@ a {
   height: 100%;
   width: 31px;
   display: block;
-  background:url('../images/stepbg.png') no-repeat right center;
+  background: url(../images/sprites.png) no-repeat;
+  background-position: -145px -71px;
 }
 
 .step-link {
@@ -243,43 +246,51 @@ a {
 .step-link img {
   padding-right: 17px;
 }
+
+.step1 { width: 56px; height: 66px; background-position: -62px 0; }
+.step2 { width: 56px; height: 66px; background-position: -123px 0; }
+.step3 { width: 57px; height: 66px; background-position: 0 0; }
+.stepbg { width: 31px; height: 100px; background-position: -145px -71px; }
 /* /Steps section*/
 
 /*Info Section*/
 .info-link {
   display: block;
-  background:url('../images/line.png') no-repeat right center;
+  position: relative;
+}
+
+.line {
+  width: 2px;
+  height: 179px;
+  background-position: 0 -71px;
+  position: absolute;
+  right: -18px;
+  top: 0px;
+}
+
+.info-link .sprites {
+  margin: auto;
 }
 
 .info .info-content:last-child .info-link {
   background: none;
 }
+
+.Airtravelicon { width: 169px; height: 145px; background-position: -180px -204px; }
+.DollarSign { width: 133px; height: 136px; background-position: -7px -71px; }
+.bed { width: 165px; height: 142px; background-position: -184px 0; }
+.car { width: 168px; height: 144px; background-position: -7px -212px; }
+
 /* /Info Section*/
 
 /*responsive style*/
 
-/* Small devices (tablets) */
-@media (max-width: 768px) {
-  .step-content {
-    margin: -8px 0px;
-  }
-  .info-link {
-    display: block;
-    background:url('../images/line_bottom.png') no-repeat bottom center;
-  }
-}
-
 /* Small devices (mobile) */
 @media (max-width: 425px) {
-  .info-link {
-    display: block;
-    background:url('../images/line_bottom.png') no-repeat bottom center;
-  }
   .row {
     margin: 0;
   }
   .step-content {
-    margin:0;
     border-bottom: 1px solid #535353;
   }
   .step-pointer-img {
