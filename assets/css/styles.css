@@ -243,11 +243,11 @@ a {
   padding: 17px 0;
 }
 
-.step-link img {
-  padding-right: 17px;
+.step-img {
+  margin-right: 17px;
 }
 
-.step1 { width: 56px; height: 66px; background-position: -62px 0; }
+.step1 { width: 53px; height: 66px; background-position: -62px 0; }
 .step2 { width: 56px; height: 66px; background-position: -123px 0; }
 .step3 { width: 57px; height: 66px; background-position: 0 0; }
 .stepbg { width: 31px; height: 100px; background-position: -145px -71px; }
@@ -281,12 +281,20 @@ a {
 /*responsive style*/
 
 /* Small devices (mobile) */
+@media (max-width: 768px) {
+  .step-img {
+     margin-right: 2px;
+  }
+}
 @media (max-width: 425px) {
   .row {
     margin: 0;
   }
   .step-content {
     border-bottom: 1px solid #535353;
+  }
+  .step-img {
+     margin-right: 17px; 
   }
   .step-pointer-img {
     left: -8px;
