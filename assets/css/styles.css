@@ -272,15 +272,10 @@ a {
   margin: auto;
 }
 
-.info .info-content:last-child .info-link {
-  background: none;
-}
-
 .Airtravelicon { width: 169px; height: 145px; background-position: -180px -204px; }
 .DollarSign { width: 133px; height: 136px; background-position: -7px -71px; }
 .bed { width: 165px; height: 142px; background-position: -184px 0; }
 .car { width: 168px; height: 144px; background-position: -7px -212px; }
-
 /* /Info Section*/
 
 /*responsive style*/
@@ -298,5 +293,11 @@ a {
   }
   .step-pointer-img.hide {
     display: block !important;
+  }
+  .line {
+    width: 178px;
+    height: 7px;
+    background-position: -174px -195px;
+    position: inherit;
   }
 }
