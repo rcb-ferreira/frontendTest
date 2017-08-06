@@ -3,8 +3,6 @@ body {
   line-height:1.5em;
   margin:0;
   padding:0;
-  color: #FFF;
-  background: #000;
 }
 
 .container {
@@ -16,8 +14,16 @@ h1 {
 }
 
 /*Global styles*/
+.primary-text {
+  color: #FFF;
+}
+
 .secondary-text {
   color: #D6BA29;
+}
+
+.bg-primary {
+  background: #000;
 }
 
 .bg-gray {
@@ -41,7 +47,7 @@ a {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-/*Global styles*/
+/* /Global styles*/
 
 /*Slider section*/
 .slider {
@@ -60,7 +66,7 @@ a {
 .slideThree {
   background:url('../images/layer_3.png') no-repeat center center;
 }
-/*End Slider section*/
+/* /Slider section*/
 
 /*Steps section*/
 .step {
@@ -73,4 +79,15 @@ a {
 .step-bg-img {
   background:url('../images/stepbg.png') no-repeat left center;
 }
-/*End Steps section*/
+/* /Steps section*/
+
+/*Info Section*/
+.info-link {
+  display: block;
+  background:url('../images/line.png') no-repeat right center;
+}
+
+.info .info-content:last-child .info-link {
+  background: none;
+}
+/* /Info Section*/
