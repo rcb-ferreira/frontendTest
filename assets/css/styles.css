@@ -295,7 +295,7 @@ a {
     background-color: rgba(0, 0, 0, 0.4)
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 668px) {
   .row {
     margin: 0;
   }
