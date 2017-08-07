@@ -14,6 +14,7 @@ function startSlide() {
     count = 0;
   }
 
+  // Make sure to remove all slides before including new
   x.classList.remove(x.classList[1]);
   x.classList.add('slide_' + count);
 

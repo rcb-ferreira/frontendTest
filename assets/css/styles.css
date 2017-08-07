@@ -294,10 +294,16 @@ a {
     border-bottom: 1px solid #535353;
   }
   .step-img {
-     margin-right: 17px; 
+     margin-right: 17px;
   }
   .step-pointer-img {
     left: -8px;
+  }
+  .slider .btn-primary {
+    margin: 0
+  }
+  .slider .btn {
+    margin-bottom: 10px;
   }
   .step-pointer-img.hide {
     display: block !important;
