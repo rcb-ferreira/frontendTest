@@ -2,7 +2,7 @@ var count = 0;
 
 function initLoad() {
 
-  setInterval(startSlide, 3000);
+  setInterval(startSlide, 5000);
 }
 
 // Simple funtion to loop through slides
