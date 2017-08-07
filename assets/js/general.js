@@ -1,4 +1,4 @@
-var count = 1;
+var count = 0;
 
 function initLoad() {
 
