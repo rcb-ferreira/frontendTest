@@ -193,16 +193,16 @@ a {
   margin-right: 15px;
 }
 
-.slide_0 {
-  background:url('../images/layer_1.png') no-repeat center center;
-}
-
 .slide_1 {
-  background:url('../images/layer_2.png') no-repeat center center;
+  background:url(../images/layer_1.png) no-repeat center center;
 }
 
 .slide_2 {
-  background:url('../images/layer_3.png') no-repeat center center;
+  background:url(../images/layer_2.png) no-repeat center center;
+}
+
+.slide_3 {
+  background:url(../images/layer_3.png) no-repeat center center;
 }
 
 .slide-content {

@@ -2,7 +2,7 @@ var count = 0;
 
 function initLoad() {
 
-  setInterval(startSlide, 5000);
+  setInterval(startSlide, 3000);
 }
 
 // Simple funtion to loop through slides
@@ -14,9 +14,9 @@ function startSlide() {
     count = 0;
   }
 
+  count += 1;
+
   // Make sure to remove all slides before including new
   x.classList.remove(x.classList[1]);
   x.classList.add('slide_' + count);
-
-  count += 1;
 }
