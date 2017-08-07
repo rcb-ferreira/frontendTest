@@ -180,9 +180,12 @@ a {
 
 /*Slider section*/
 .slider {
-  height: 372px;
+  height: 0px;
   background-color: #000;
   text-transform: uppercase;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .slider .btn {
@@ -195,14 +198,17 @@ a {
 
 .slide_1 {
   background:url(../images/layer_1.png) no-repeat center center;
+  height: 372px;
 }
 
 .slide_2 {
   background:url(../images/layer_2.png) no-repeat center center;
+  height: 372px;
 }
 
 .slide_3 {
   background:url(../images/layer_3.png) no-repeat center center;
+  height: 372px;
 }
 
 .slide-content {
